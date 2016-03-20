@@ -22,12 +22,17 @@ public class Main {
 		
 		System.out.println("Sorted Array:");
 
-		int[] sortedArray = BubbleSort.bubble(unsortedArray);
-		for(int i: sortedArray) {
-			System.out.println(i +" ");
+		// int[] sortedArray = BubbleSort.bubble(unsortedArray);
+		// for(int i: sortedArray) {
+		// 	System.out.println(i +" ");
+		// }
+
+		//TODO: sort the array and print out its contents
+		int[] sortedArray = InsertionSort.InsertionSort(unsortedArray);
+		for (int i = 0; i < sortedArray.length; i++) {
+			System.out.println(sortedArray[i]);
 		}
-		
-		
+
 		
 	}
 
